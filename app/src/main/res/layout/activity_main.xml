@@ -1,0 +1,345 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.matthijswillems.cervicapp.MainActivity"
+    android:background="@color/BlueCervicApp"
+    android:id="@+id/mainActivityView">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:weightSum="3"
+    android:layout_gravity="bottom"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:background="#ff4b64ff"
+        android:textColor="#faffffff"
+        android:gravity="center"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView2"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_weight="1"
+        android:background="#ff4b64ff"
+        android:textColor="#faffffff"
+        android:gravity="center"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView3"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_weight="1"
+        android:background="#ff4b64ff"
+        android:textColor="#faffffff"
+        android:gravity="center"
+        android:layout_margin="2dp"/>
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/messages"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/linearLayout" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/plant_bak"
+                android:background="@drawable/plant_bak"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/plant_stam"
+                android:background="@drawable/plant_stam"
+
+
+                android:layout_alignBottom="@id/plant_bak"
+                android:layout_alignLeft="@id/plant_bak"
+                android:layout_alignRight="@id/plant_bak"
+                />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plant_mask"
+        android:background="@drawable/plant_mask"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf1"
+        android:background="@drawable/leaf1"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf2"
+        android:background="@drawable/leaf2"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf3"
+        android:background="@drawable/leaf3"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf4"
+        android:background="@drawable/leaf4"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf5"
+        android:background="@drawable/leaf5"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf6"
+        android:background="@drawable/leaf6"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf7"
+        android:background="@drawable/leaf7"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf8"
+        android:background="@drawable/leaf8"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf9"
+        android:background="@drawable/leaf9"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf10"
+        android:background="@drawable/leaf10"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf11"
+        android:background="@drawable/leaf11"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf12"
+        android:background="@drawable/leaf12"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf13"
+        android:background="@drawable/leaf13"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf14"
+        android:background="@drawable/leaf14"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leaf15"
+        android:background="@drawable/leaf15"
+
+
+        android:layout_alignBottom="@id/plant_bak"
+        android:layout_alignLeft="@id/plant_bak"
+        android:layout_alignRight="@id/plant_bak"
+        />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/settings_button" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calibrate_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/calibrate_button" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/overview_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/overview_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not connected to CervicGear \nPlease turn it on"
+        android:id="@+id/connectedTextView"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/White"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plant_complete1"
+        android:background="@drawable/plant_complete"
+        android:layout_above="@+id/settings_button"
+        android:layout_alignEnd="@+id/messages"
+        android:layout_marginBottom="20dp"
+        android:visibility="invisible"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plant_complete2"
+        android:background="@drawable/plant_complete"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/plant_complete1"
+        android:layout_toStartOf="@+id/plant_complete1" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plant_complete3"
+        android:background="@drawable/plant_complete"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/plant_complete2"
+        android:layout_toStartOf="@+id/plant_complete2" />
+
+
+</RelativeLayout>

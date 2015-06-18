@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Angle Threshold Values"
+        android:key="angle_threshold_values">
+    <EditTextPreference
+        android:key="defaultForwardAngleValue"
+        android:title="Forward Angle Value"
+        android:summary="Set the allowed forward angle value (default 10)"
+        android:numeric="integer"
+        android:defaultValue="10"
+        />
+    <EditTextPreference
+        android:key="defaultBackwardAngleValue"
+        android:title="Backward Angle Value"
+        android:summary="Set the allowed backwards angle value (default 5)"
+        android:numeric="integer"
+        android:defaultValue="5"
+        />
+        <EditTextPreference
+            android:key="defaultForwardHeadPostureValue"
+            android:title="Forward Head Posture Value"
+            android:summary="Set the allowed forward head posture value(default 6)"
+            android:numeric="integer"
+            android:defaultValue="6"
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Sound/Vibration Settings"
+        android:key="sound_settings">
+        <CheckBoxPreference
+            android:title="Enable/Disable Sound/Vibration"
+            android:key="soundEnabled"
+            android:summary="Uncheck to disable sound/vibration"
+            android:defaultValue="true"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Developer Options"
+        android:key="developer_options">
+        <CheckBoxPreference
+            android:title="Show Incoming Data"
+            android:key="incomingDataEnabled"
+            android:summary="Check to show incoming data"
+            android:defaultValue="false"
+            />
+        <EditTextPreference
+            android:title="AlphaIncrement Value"
+            android:key="alphaIncrement"
+            android:summary="Do not adjust"
+            android:numeric="integer"
+            android:defaultValue="1"
+            />
+        </PreferenceCategory>
+
+</PreferenceScreen>

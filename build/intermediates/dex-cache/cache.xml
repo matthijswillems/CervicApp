@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/BLE Test/BTLETest-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/BLE Test/BTLETest-master/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-7db645812a08d218016773646b9a4a01ca7543ae.jar" />
+    </item>
+    <item
+        jar="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/BLE Test/BTLETest-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/BLE Test/BTLETest-master/app/build/intermediates/pre-dexed/debug/classes-a5663b44e48a0419a2326750fb0e1b1c6943c513.jar" />
+    </item>
+    <item
+        jar="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/CervicApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/CervicApp/app/build/intermediates/pre-dexed/debug/classes-e4ca467779202a6dc73604dab7178eacd06f9bab.jar" />
+    </item>
+    <item
+        jar="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/CervicApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/CervicApp/app/build/intermediates/pre-dexed/debug/classes-fb77888f639653bb635627d2785135cc3ab0000a.jar" />
+    </item>
+    <item
+        jar="/Users/Matthijs/AndroidStudioProjects/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/BLE Test/BTLETest-master/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6105b2cb09bc6cf63a03309815049bb97dd687fc.jar" />
+    </item>
+    <item
+        jar="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/BLE Test/BTLETest-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/BLE Test/BTLETest-master/app/build/intermediates/pre-dexed/debug/classes-ff7a99746d9ab1202f4fa8be350f8ce46144dea6.jar" />
+    </item>
+    <item
+        jar="/Users/Matthijs/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.0.9/6df6035161f0263100c3a70626bccbfd0bb545b7/MPAndroidChart-v2.0.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6df6035161f0263100c3a70626bccbfd0bb545b7">
+        <dex dex="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/CervicApp/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.0.9-e13feecb3a187b2181b0d232a17324a484430d6c.jar" />
+    </item>
+    <item
+        jar="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/CervicApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Matthijs/Copy/M2.2/FMP/Tech/Android App/CervicApp/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-204983df38273e17e278ab16f39f0207b7bbadcd.jar" />
+    </item>
+
+</items>
